@@ -18,6 +18,9 @@ defineProps<{
   display: flex;
   align-self: center;
   font-family: Tele2;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
   color: #7C8792;
   padding-bottom: 15px;
   padding-top: 13px;
@@ -34,7 +37,7 @@ defineProps<{
   padding-top: 13px;
   align-self: center;
   font-family: Tele2;
-  border-bottom: solid 2px black;
-  color: black;
+  border-bottom: solid 2px #1F2229;
+  color: #1F2229;
 }
 </style>

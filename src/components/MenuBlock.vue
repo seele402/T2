@@ -23,7 +23,7 @@ const menuStore = useMenuStore();
   box-sizing: border-box;
 }
 
-А .option-container {
+.option-container {
   display: flex;
   width: calc(100% - 30px);
 }
@@ -32,15 +32,18 @@ const menuStore = useMenuStore();
   display: flex;
   align-self: center;
   font-family: Tele2Bold;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 800;
   border-bottom: solid 1px #EDEDED;
-  color: #7C8792;
+  color: #959597;
   padding-bottom: 8px;
   padding-top: 0px;
   margin-bottom: 16px;
 
   &:hover {
     border-bottom: solid 1px #EDEDED;
-    color: #7C8792;
+    color: #959597;
   }
 }
 
@@ -51,13 +54,13 @@ const menuStore = useMenuStore();
   padding-top: 0px;
   font-family: Tele2Bold;
   border-bottom: solid 1px #EDEDED;
-  color: #7C8792;
+  color: #959597;
 }
 
 .location {
   &::before {
     content: url('@/assets/location.svg');
-    margin-top: 5px;
+    margin-top: 4px;
   }
 
   cursor: pointer;

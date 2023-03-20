@@ -61,8 +61,6 @@ const { toggle: toggleMenu } = useMenuStore();
   justify-self: flex-end;
   align-self: center;
   gap: 18px;
-
-
 }
 
 .button-hamburger {
