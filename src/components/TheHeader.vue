@@ -103,6 +103,7 @@ const { toggle: toggleMenu } = useMenuStore();
 
 .notification-indicator {
   position: absolute;
+  transform: translateX(10px);
   z-index: 1;
   width: 6px;
   height: 6px;
